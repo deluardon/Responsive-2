@@ -1,10 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap");
 
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap");
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Merriweather", serif;
+  font-family: "Inter", serif;
 }
 
 /* navbar section start*/
@@ -135,7 +136,7 @@
   font-size: 60px;
   font-style: normal;
   font-weight: 900;
-  line-height: 88px; 
+  line-height: 88px;
   letter-spacing: 7.04px;
 }
 
@@ -145,7 +146,7 @@
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
-  line-height: 30px; 
+  line-height: 30px;
   opacity: 0.8;
 }
 
@@ -160,4 +161,88 @@
 .party-img img {
   width: 219.83px;
   height: 364.662px;
+}
+
+/* party section end */
+
+/* thard section */
+
+.thard-part {
+  background: linear-gradient(
+    180deg,
+    rgba(255, 0, 0, 0.1) 0%,
+    rgba(255, 0, 0, 0) 100%
+  );
+  height: 382px;
+  width: 1300px;
+  font-family: Intel;
+  margin: 120px auto;
+  border-radius: 10px;
+  color: rgb(0, 0, 0);
+  text-align: center;
+}
+
+.thard-part span {
+  color: #f00;
+}
+
+.thard-part h1 {
+  padding-top: 10%;
+  line-height: 54px;
+}
+
+.thard-part button {
+  background-color: rgb(0, 0, 0);
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+/* thard section */
+
+/* froth section */
+
+.froth-container {
+  width: 1300px;
+  border: 2px solid tomato;
+  margin: auto;
+  align-items: center;
+  padding: 40px;
+}
+
+.froth-info {
+    flex: 1;
+}
+.froth-part {
+  display: flex;
+  align-items: center;
+  margin: auto;
+  gap: 20px;
+  /* justify-content: space-around; */
+}
+
+.froth-img-container {
+  border: 2px solid red;
+  padding: 30px;
+  border-radius: 100%;
+  flex: 1;
+}
+.froth-img {
+  background-image: url("../images/Ellipse\ 1.png");
+  width: 364.844px;
+  height: 364.844px;
+  /* border: 2px solid red; */
+}
+.froth-text{
+    flex: 1;
+    margin-top: 9rem;
+ 
+}
+.froth-text-img{
+    background-image: url("../images/Group\ 96.png");
+    height: 200px;
+    width: 200px;
+    background-repeat: no-repeat;
 }
