@@ -116,14 +116,19 @@
 
 /* party section */
 
-.party {
+.party-container {
   background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
     url("../images/Vectorrr.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
   height: 400px;
   width: 1300px;
-  background-position: center;
-  background-size: cover;
   margin: 120px auto;
+}
+
+.party {
+
   border-radius: 10px;
   display: flex;
   align-items: center;
@@ -132,7 +137,6 @@
 }
 
 .party-text h1 {
-  font-family: Merriweather;
   font-size: 60px;
   font-style: normal;
   font-weight: 900;
@@ -142,9 +146,7 @@
 
 .party-text small {
   color: rgba(255, 255, 255, 0.8);
-  font-family: Inter;
   font-size: 18px;
-  font-style: normal;
   font-weight: 400;
   line-height: 30px;
   opacity: 0.8;
@@ -175,11 +177,13 @@
   );
   height: 382px;
   width: 1300px;
-  font-family: Intel;
   margin: 120px auto;
   border-radius: 10px;
   color: rgb(0, 0, 0);
   text-align: center;
+  background-position: center;
+  background-size: cover;
+  background-clip: border-box;
 }
 
 .thard-part span {
@@ -210,39 +214,66 @@
   margin: auto;
   align-items: center;
   padding: 40px;
+  background-position: center;
+  background-size: cover;
 }
 
 .froth-info {
-    flex: 1;
+  flex: 1;
+}
+.froth-info span {
+  color: #f00;
+  font-size: 24px;
+  font-weight: 500;
+}
+.froth-info h1 {
+  color: #070211;
+  font-size: 48px;
+  margin-top: 16px;
+  font-weight: 900;
+  margin-bottom: 20px;
+  text-transform: capitalize;
+}
+.froth-info small {
+  font-size: 18px;
+  color: rgba(7, 2, 17, 0.6);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
 }
 .froth-part {
   display: flex;
   align-items: center;
   margin: auto;
-  gap: 20px;
+  gap: 50px;
   /* justify-content: space-around; */
 }
 
 .froth-img-container {
-  border: 2px solid red;
+  border: 10px solid red;
   padding: 30px;
   border-radius: 100%;
   flex: 1;
 }
 .froth-img {
   background-image: url("../images/Ellipse\ 1.png");
-  width: 364.844px;
-  height: 364.844px;
+  width: 364px;
+  height: 364px;
   /* border: 2px solid red; */
 }
-.froth-text{
-    flex: 1;
-    margin-top: 9rem;
- 
+.froth-text {
+  flex: 1;
 }
-.froth-text-img{
-    background-image: url("../images/Group\ 96.png");
-    height: 200px;
-    width: 200px;
-    background-repeat: no-repeat;
+.froth-text-img {
+  background-image: url("../images/Group\ 96.png");
+  height: 200px;
+  width: 200px;
+  background-repeat: no-repeat;
+}
+.froth-text h1 {
+  color: #f00;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
 }
